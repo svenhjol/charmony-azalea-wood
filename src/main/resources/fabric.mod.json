@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "charmony-azalea-wood",
+  "version": "${mod_version}",
+
+  "name": "Charmony Azalea Wood",
+  "description": "A wood type obtainable from naturally occuring azalea trees.",
+
+  "authors": [
+    "svenhjol"
+  ],
+  "icon": "assets/charmony-azalea-wood/textures/gui/sprites/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "accessWidener": "charmony-azalea-wood.accesswidener",
+  "entrypoints": {
+    "main": [
+        "svenhjol.charmony.azalea_wood.common.CommonInitializer"
+    ],
+    "client": [
+        "svenhjol.charmony.azalea_wood.client.ClientInitializer"
+    ],
+    "modmenu": [
+        "svenhjol.charmony.azalea_wood.integration.ModMenuPlugin"
+    ]
+  },
+
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "*",
+    "java": ">=${java_version}",
+    "fabric-api": "*",
+    "charmony": ">=${charmony_version}",
+    "charmony-api": ">=${api_version}"
+  },
+
+  "contact": {
+    "homepage": "${homepage_link}",
+    "sources": "https://github.com/svenhjol/${mod_id}"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "${discord_link}"
+      },
+      "update_checker": true
+    }
+  }
+}
