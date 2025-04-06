@@ -17,8 +17,4 @@ public final class AzaleaWood extends SidedFeature {
         common = Common::new;
         registers = new Registers(this);
     }
-
-    public static AzaleaWood feature() {
-        return Mod.getSidedFeature(AzaleaWood.class);
-    }
 }
