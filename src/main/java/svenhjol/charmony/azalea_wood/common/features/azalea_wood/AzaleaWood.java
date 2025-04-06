@@ -5,7 +5,7 @@ import svenhjol.charmony.core.base.Mod;
 import svenhjol.charmony.core.base.SidedFeature;
 import svenhjol.charmony.core.enums.Side;
 
-@FeatureDefinition(side = Side.Common, canBeDisabled = false, description = """
+@FeatureDefinition(side = Side.Common, description = """
     Azalea wood is obtainable from naturally occurring azalea trees or by growing azalea saplings.""")
 public final class AzaleaWood extends SidedFeature {
     public final Registers registers;

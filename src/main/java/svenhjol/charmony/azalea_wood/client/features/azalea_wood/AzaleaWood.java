@@ -7,7 +7,7 @@ import svenhjol.charmony.core.enums.Side;
 
 import java.util.function.Supplier;
 
-@FeatureDefinition(side = Side.Client, canBeDisabled = false)
+@FeatureDefinition(side = Side.Client, canBeDisabledInConfig = false)
 public final class AzaleaWood extends SidedFeature {
     public final Registers registers;
     public final Supplier<Common> common;
