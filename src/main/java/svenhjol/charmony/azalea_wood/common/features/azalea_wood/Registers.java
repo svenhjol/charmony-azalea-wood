@@ -60,10 +60,7 @@ public final class Registers extends Setup<AzaleaWood> {
 
     @Override
     public Runnable boot() {
-        return () -> {
-            ServerLifecycleEvents.SERVER_STARTED.register(this::serverStarting);
-            var x = 3;
-        };
+        return () -> ServerLifecycleEvents.SERVER_STARTED.register(this::serverStarting);
     }
 
     @SuppressWarnings("unchecked")
