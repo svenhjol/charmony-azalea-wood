@@ -8,7 +8,7 @@ import svenhjol.charmony.core.enums.Side;
 @ModDefinition(
     id = AzaleaWoodMod.ID,
     sides = {Side.Client, Side.Common},
-    name = "Charmony Azalea Wood",
+    name = "Azalea Wood",
     description = "A wood type obtainable from naturally occuring azalea trees.")
 public final class AzaleaWoodMod extends Mod {
     public static final String ID = "charmony-azalea-wood";
