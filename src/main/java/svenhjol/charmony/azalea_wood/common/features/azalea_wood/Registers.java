@@ -20,7 +20,7 @@ import svenhjol.charmony.core.common.features.wood.types.Trapdoor;
 
 import java.util.function.Supplier;
 
-public final class Registers extends Setup<AzaleaWood> {
+public class Registers extends Setup<AzaleaWood> {
     public final Supplier<BlockSetType> blockSetType;
     public final Supplier<WoodType> woodType;
     public final Supplier<WoodMaterial> material;

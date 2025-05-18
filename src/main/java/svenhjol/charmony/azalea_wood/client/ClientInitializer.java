@@ -3,7 +3,7 @@ package svenhjol.charmony.azalea_wood.client;
 import net.fabricmc.api.ClientModInitializer;
 import svenhjol.charmony.azalea_wood.AzaleaWoodMod;
 import svenhjol.charmony.azalea_wood.client.features.azalea_wood.AzaleaWood;
-import svenhjol.charmony.core.enums.Side;
+import svenhjol.charmony.api.core.Side;
 
 public final class ClientInitializer implements ClientModInitializer {
     @Override

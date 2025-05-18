@@ -3,7 +3,7 @@ package svenhjol.charmony.azalea_wood.common;
 import net.fabricmc.api.ModInitializer;
 import svenhjol.charmony.azalea_wood.AzaleaWoodMod;
 import svenhjol.charmony.azalea_wood.common.features.azalea_wood.AzaleaWood;
-import svenhjol.charmony.core.enums.Side;
+import svenhjol.charmony.api.core.Side;
 
 public final class CommonInitializer implements ModInitializer {
     @Override
