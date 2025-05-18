@@ -7,7 +7,8 @@
   "description": "A wood type obtainable from naturally occuring azalea trees.",
 
   "authors": [
-    "svenhjol"
+    "svenhjol",
+    "Coranthes"
   ],
   "icon": "assets/charmony-azalea-wood/textures/gui/sprites/icon.png",
   "license": "MIT",
