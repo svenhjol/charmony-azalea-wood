@@ -1,19 +1,19 @@
 {
   "replace": false,
   "values": [
-    "charmony-azalea-wood:azalea_button",
-    "charmony-azalea-wood:azalea_door",
-    "charmony-azalea-wood:azalea_fence",
-    "charmony-azalea-wood:azalea_fence_gate",
-    "charmony-azalea-wood:azalea_log",
-    "charmony-azalea-wood:azalea_planks",
-    "charmony-azalea-wood:azalea_pressure_plate",
-    "charmony-azalea-wood:azalea_sign",
-    "charmony-azalea-wood:azalea_slab",
-    "charmony-azalea-wood:azalea_stairs",
-    "charmony-azalea-wood:azalea_trapdoor",
-    "charmony-azalea-wood:azalea_wood",
-    "charmony-azalea-wood:stripped_azalea_log",
-    "charmony-azalea-wood:stripped_azalea_wood"
+    "charmony:azalea_button",
+    "charmony:azalea_door",
+    "charmony:azalea_fence",
+    "charmony:azalea_fence_gate",
+    "charmony:azalea_log",
+    "charmony:azalea_planks",
+    "charmony:azalea_pressure_plate",
+    "charmony:azalea_sign",
+    "charmony:azalea_slab",
+    "charmony:azalea_stairs",
+    "charmony:azalea_trapdoor",
+    "charmony:azalea_wood",
+    "charmony:stripped_azalea_log",
+    "charmony:stripped_azalea_wood"
   ]
 }

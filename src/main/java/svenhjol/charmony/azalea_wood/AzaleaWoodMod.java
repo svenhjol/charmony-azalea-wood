@@ -1,9 +1,8 @@
 package svenhjol.charmony.azalea_wood;
 
-import net.minecraft.resources.ResourceLocation;
 import svenhjol.charmony.api.core.ModDefinition;
-import svenhjol.charmony.core.base.Mod;
 import svenhjol.charmony.api.core.Side;
+import svenhjol.charmony.core.base.Mod;
 
 @ModDefinition(
     id = AzaleaWoodMod.ID,
@@ -21,9 +20,5 @@ public final class AzaleaWoodMod extends Mod {
             instance = new AzaleaWoodMod();
         }
         return instance;
-    }
-
-    public static ResourceLocation id(String path) {
-        return ResourceLocation.fromNamespaceAndPath(ID, path);
     }
 }

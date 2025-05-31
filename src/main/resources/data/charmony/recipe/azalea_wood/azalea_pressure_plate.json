@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": "charmony:azalea_planks"
+  },
+  "result": {
+    "id": "charmony:azalea_pressure_plate"
+  }
+}

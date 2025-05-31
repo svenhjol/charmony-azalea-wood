@@ -15,7 +15,7 @@ public class Registers extends Setup<AzaleaWood> {
         var trapdoor = commonRegisters.trapdoor;
 
         // Cut out transparent areas of doors and trapdoors.
-        clientRegistry.blockRenderType(door.block, () -> ChunkSectionLayer.CUTOUT);
-        clientRegistry.blockRenderType(trapdoor.block, () -> ChunkSectionLayer.CUTOUT);
+        clientRegistry.blockRenderType(door.block.get(), ChunkSectionLayer.CUTOUT);
+        clientRegistry.blockRenderType(trapdoor.block.get(), ChunkSectionLayer.CUTOUT);
     }
 }

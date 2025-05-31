@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "charmony:block/azalea_planks",
+    "top": "charmony:block/azalea_planks",
+    "side": "charmony:block/azalea_planks"
+  }
+}

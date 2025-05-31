@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "charmony:azalea_planks"
+  },
+  "result": {
+    "count": 6,
+    "id": "charmony:azalea_slab"
+  }
+}

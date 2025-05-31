@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "charmony:block/azalea_slab"
+    },
+    "type=double": {
+      "model": "charmony:block/azalea_planks"
+    },
+    "type=top": {
+      "model": "charmony:block/azalea_slab_top"
+    }
+  }
+}
