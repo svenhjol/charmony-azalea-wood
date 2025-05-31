@@ -1,6 +1,6 @@
 package svenhjol.charmony.azalea_wood.client.features.azalea_wood;
 
-import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
 import svenhjol.charmony.core.base.Setup;
 import svenhjol.charmony.core.client.ClientRegistry;
 
@@ -15,7 +15,7 @@ public class Registers extends Setup<AzaleaWood> {
         var trapdoor = commonRegisters.trapdoor;
 
         // Cut out transparent areas of doors and trapdoors.
-        clientRegistry.blockRenderType(door.block, RenderType::cutout);
-        clientRegistry.blockRenderType(trapdoor.block, RenderType::cutout);
+        clientRegistry.blockRenderType(door.block, () -> ChunkSectionLayer.CUTOUT);
+        clientRegistry.blockRenderType(trapdoor.block, () -> ChunkSectionLayer.CUTOUT);
     }
 }
