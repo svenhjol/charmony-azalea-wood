@@ -16,13 +16,10 @@
   "accessWidener": "charmony-azalea-wood.accesswidener",
   "entrypoints": {
     "main": [
-        "svenhjol.charmony.azalea_wood.common.CommonInitializer"
+      "svenhjol.charmony.azalea_wood.common.CommonInitializer"
     ],
     "client": [
-        "svenhjol.charmony.azalea_wood.client.ClientInitializer"
-    ],
-    "modmenu": [
-        "svenhjol.charmony.azalea_wood.integration.ModMenuPlugin"
+      "svenhjol.charmony.azalea_wood.client.ClientInitializer"
     ]
   },
 
